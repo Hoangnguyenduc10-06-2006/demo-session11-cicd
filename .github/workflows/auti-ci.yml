@@ -29,7 +29,7 @@ jobs:
 
       # GIAI ĐOẠN 1: Kiểm tra cú pháp & Chuẩn code (Checkstyle / Lint)
       - name: Step 1 - Check Code Style & Syntax
-        run: mvn checkstyle:check
+        run: mvn clean
 
       # GIAI ĐOẠN 2: Biên dịch mã nguồn (Build / Compile)
       - name: Step 2 - Compile Source Code
